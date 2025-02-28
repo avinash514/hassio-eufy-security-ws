@@ -21,7 +21,7 @@ jobs:
         with:
           args: |
             --all \
-            --target eufy-security-ws-ash \
+            --target eufy-security-ws \
             --docker-hub avinash514
         #env:
         #  CAS_API_KEY: ${{ secrets.CAS_TOKEN }}

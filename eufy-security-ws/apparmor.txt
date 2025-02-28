@@ -1,7 +1,7 @@
 #include <tunables/global>
 
 #profile eufy_security_ws flags=(audit,complain,attach_disconnected,mediate_deleted) {
-profile eufy_security_ws flags=(attach_disconnected,mediate_deleted) {
+profile eufy_security_ws_ash flags=(attach_disconnected,mediate_deleted) {
   #include <abstractions/base>
 
   # Capabilities

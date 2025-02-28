@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 
-CONFIG_PATH=/data/eufy-security-ws-config.json
+CONFIG_PATH=/data/eufy-security-ws-ash-config.json
 
 USERNAME="$(bashio::config 'username')"
 PASSWORD="$(bashio::config 'password')"

@@ -1,7 +1,7 @@
 name: eufy-security-ws-ash
 description: Allows you to control Eufy security devices over websocket by connecting to the Eufy cloud servers and local/remote stations
 version: 1.9.2
-slug: "eufy_security_ws"
+slug: "eufy_security_ws_ash"
 url: https://github.com/avinash514/hassio-eufy-security-ws
 init: false
 arch:
@@ -42,4 +42,4 @@ schema:
   stations:
     - serial_number: str
       ip_address: match(^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$)
-image: bropat/hassio-eufy-security-ws-{arch}
+image: avinash514/hassio-eufy-security-ws-{arch}
